@@ -1,15 +1,15 @@
 # 專案配置
 
-### Color
+## Color
 
 ?> 要更改主要顏色和次要顏色，您必須更改 2 個文件，解釋如下：
 
-#### 覆蓋主題顏色
+### 覆蓋主題顏色
 
 如需更改，請前往： src/plugins/vuetify.js <br/>
 預設主題色為 default 設定
 
-#### 更改主題顏色
+### 更改主題顏色
 
 如需更改切換的主題色彩及暗黑設定，請前往： src/plugins/vuetify.js <br/>
 至對應的主題色更改設定，欲新增主題色彩 也可自定義主題名稱
@@ -78,47 +78,11 @@
 
 ```
 
-#### 切換主題色彩
-
-當需要修改切換主題顏色配置功能時 <br/>
-檔案位置如:src/components/functionNavigation.vue <br/>
-若需要更詳細文件 可參考 [ Vuetify Theme ](https://vuetifyjs.com/en/features/theme/#changing-theme)
-
-```vue
-<template>
-  <v-btn @click="changeTheme('default')">button</v-btn>
-</template>
-<script>
-export default {
-  methods: {
-    changeTheme(color) {
-      let th = this.$vuetify.theme.global;
-      th.name = color;
-      this.theme = color;
-      this.themeDark = false;
-      this.createCookie('Theme', `${color}`, 356);
-    },
-    createCookie(name, value, days) {
-      let _expires;
-      const _date = new Date();
-      if (days) {
-        _date.setTime(_date.getTime() + days * 24 * 60 * 60 * 1000);
-        _expires = '; expires=' + _date.toGMTString();
-      } else {
-        _expires = '';
-      }
-      document.cookie = name + '=' + value + _expires + '; path=/';
-    },
-  },
-};
-</script>
-```
-
-### Typography
+## Typography
 
 ?> 更改主要文字樣式及設定如下:
 
-#### Google fonts
+### Google fonts
 
 如需新增，請前往： / index.html <br/>
 
@@ -136,7 +100,7 @@ export default {
 </html>
 ```
 
-#### 修改字型樣式
+### 修改字型樣式
 
 如需修改文字樣式則須至 src / sass / variables.scss
 
@@ -144,7 +108,7 @@ export default {
 $fontFamily: 'Noto Sans', 'Noto Sans TC', Lato, 'PingFang TC', 'Helvetica Neue', Helvetica, 微軟正黑體, Arial, sans-serif;
 ```
 
-# Icons
+## Icons
 
 ?> 要更改 Icons 主題及樣式 如下：
 

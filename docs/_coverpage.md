@@ -19,7 +19,7 @@
   <a href="https://github.com/HywebU00/HyUI_v4.0/">GitHub</a>
 </span>
 <span >
-  <a href="#?id=hyui-kit">Get Started</a>
+  <a href="#?id=hyvue-cms">Get Started</a>
 </span>
 </div>
 </div>

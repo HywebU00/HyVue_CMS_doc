@@ -1,3 +1,3 @@
-# Vue template
+# HyVue CMS
 
 ## 簡介

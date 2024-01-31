@@ -7,6 +7,10 @@
 ?> • node js 14+ <br/>
 • npm js 6+
 
+### 下載
+
+?> 檔案下載連結 [GitHub](https://github.com/HywebU00/vue_cms_template)檔案下載。<br/>
+
 ### 安裝
 
 打開 資料夾 並 安裝其依賴套件。<br/>

@@ -108,18 +108,3 @@ export default {
 };
 </script>
 ```
-
-## 套件配置
-
-### 動態效果 / GSAP 運用
-
-?> 模板動態效果可參考 GSAP 或是其他相關套件 <br/>
-
-模板運用效果 如: `animateNumber`效果 <br/>
-相關設定 請參考 [GSAP](https://gsap.com/) 套件
-
-### 圖表 / ECharts 運用
-
-?> 模板中圖表設定可參考 charts 或是其他相關圖表套件
-
-相關圖表設定 請參考 [echarts.js](https://echarts.apache.org/zh/index.html) 套件

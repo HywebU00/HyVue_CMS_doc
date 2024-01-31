@@ -2,7 +2,7 @@
 
 ## Color
 
-?> 要更改主要顏色和次要顏色，您必須更改 2 個文件，解釋如下：
+?> 要更改主要顏色和相關色系設定如下：
 
 ### 覆蓋主題顏色
 
@@ -21,15 +21,15 @@
       default: {
         dark: false,
         colors: {
-          primary: "#331919",
-          secondary: "#695f5f",
-          loginColor: "#331919",
-          light: "#fc590f",
-          navText: "#331919",
-          thead: "#eae1dc",
+          primary: "#0156a2",
+          secondary: "#32a7fa",
+          loginColor: "#0156a2",
+          light: "#8eebb1",
+          navText: "#262626",
+          thead: "#dadfe0",
         },
       },
-      green: {
+      color1: {
         dark: false,
         colors: {
           primary: "#1e484a",
@@ -40,7 +40,7 @@
           thead: "#dae0db",
         },
       },
-      blue: {
+      color3: {
         dark: false,
         colors: {
           primary: "#103d5c",
@@ -51,7 +51,7 @@
           thead: "#dadfe0",
         },
       },
-      red: {
+      color2: {
         dark: false,
         colors: {
           primary: "#4e0c30",
@@ -73,7 +73,7 @@
         },
       },
     },
-  },
+  }
 
 
 ```

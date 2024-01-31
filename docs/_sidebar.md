@@ -11,6 +11,11 @@
 
   - [專案配置](theme-ui/project-configuration.md)
   - [客製化主題](theme-ui/customize-theme.md)
+  - [套件配置](theme-ui/customize-vendor.md)
+
+- 組件
+
+  - [組件說明](components/component.md)
 
 - 發展
 

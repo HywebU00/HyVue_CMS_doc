@@ -1,6 +1,6 @@
 # Routing
 
-#### 新增路線
+### 新增路線
 
 如需更改，請前往： src / router / index.js <br/>
 
@@ -28,7 +28,7 @@ const routes = [
 ];
 ```
 
-#### 新增側邊欄位
+### 新增側邊欄位
 
 如需更改，請前往： src / views / layout / adminLayout.vue <br/>
 

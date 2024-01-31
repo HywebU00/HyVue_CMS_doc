@@ -28,7 +28,7 @@ npm install gsap
 
 相關圖表設定 請詳閱 [echarts.js](https://echarts.apache.org/zh/index.html) 套件 及[Vue-Echarts](https://vue-echarts.dev/) 套件
 
-<img  src="../doc_img/img_chart.png"></img>
+<img  src="doc_img/img_chart.png"></img>
 
 引入套件
 
@@ -54,7 +54,7 @@ npm i echarts vue-echarts
 
 ## 編輯器 / VueQuill 運用
 
-<img style="max-width:860px;" src="../doc_img/img_editor.png"></img>
+<img style="max-width:860px;" src="doc_img/img_editor.png"></img>
 
 ?> 模板中樣式可參考 VueQuill 或是其他相關圖表套件
 
@@ -86,7 +86,7 @@ npm install @vueup/vue-quill@latest
 
 ## 日期選擇器 / Vue Datepicker 運用
 
-<img style="max-width:600px;" src="../doc_img/img_datepicker.png"></img>
+<img style="max-width:600px;" src="doc_img/img_datepicker.png"></img>
 
 ?> 模板中樣式可參考 Vue Datepicker 或是其他相關圖表套件
 

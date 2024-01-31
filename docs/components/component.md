@@ -6,7 +6,7 @@
 
 ### 標籤
 
-<img  src="../doc_img/img_chip.png"></img>
+<img  src="doc_img/img_chip.png"></img>
 
 ?> 標籤組件 詳請請參考[文件連結](https://vuetifyjs.com/en/components/chip-groups/#usage)
 
@@ -24,7 +24,7 @@
 
 ### 卡片
 
-<img  style="max-width:960px;" src="../doc_img/img_card.png"></img>
+<img  style="max-width:960px;" src="doc_img/img_card.png"></img>
 
 ?> 卡片組件 詳請請參考 [文件連結](https://vuetifyjs.com/en/components/cards/#usage)
 
@@ -66,7 +66,7 @@
 
 ### 按鈕
 
-<img  src="../doc_img/img_btn.png"></img>
+<img  src="doc_img/img_btn.png"></img>
 
 ?> 按鈕組件 詳請請參考 [文件連結](https://vuetifyjs.com/en/components/buttons/#anatomy)
 
@@ -89,7 +89,7 @@
 
 ### 分頁
 
-<img  src="../doc_img/img_paginations.png"></img>
+<img  src="doc_img/img_paginations.png"></img>
 
 ?> 分頁組件 詳請請參考 [文件連結](https://vuetifyjs.com/en/components/paginations/#icons)
 
@@ -108,7 +108,7 @@
 
 ### 基本表單
 
-<img  src="../doc_img/img_from.png"></img>
+<img  src="doc_img/img_from.png"></img>
 
 ?> 表單組件 詳請請參考 [文件連結](https://vuetifyjs.com/en/components/forms/#rules)
 
@@ -138,7 +138,7 @@
 
 ### 表格
 
-<img  src="../doc_img/img_table.png"></img>
+<img  src="doc_img/img_table.png"></img>
 
 ?> 表格組件 詳請請參考 [文件連結](https://vuetifyjs.com/en/components/tables/#usage)
 

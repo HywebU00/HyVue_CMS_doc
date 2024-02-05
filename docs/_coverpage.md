@@ -1,33 +1,28 @@
 <!-- _coverpage.md -->
-
 <!-- # HyUI <small>4.0</small> -->
 
 <div class="info">
-<div class="logo">
-
-</div>
 
 <h1>
- 
+<span class="title"><img src="vue_LOGO.png"  style="max-width:300px;"></span>
+<span class="admin">Admin Dashboard</span>
 </h1>
-<p >
- 
-</p>
 
-<div class="btnList" >
-<span >
-  <a href="https://github.com/HywebU00/HyVue_CMS">GitHub</a>
-</span>
+<div class="subtitle">
+<p>透過 Vuetify3 文件搭建的ＵＩ模版，快速搭建後台頁面</p>
+</div>
+
+<div class="btnList">
 <span >
   <a href="#?id=hyvue-cms">Get Started</a>
+</span>
+<span >
+  <a class="github" href="https://github.com/HywebU00/HyVue_CMS">GitHub</a>
 </span>
 </div>
 </div>
 
 <style>
-  .info{
-        margin: 0 0 10% 30%;
-  }
   .logo{
     width: 360px;
     margin: 0 auto;
@@ -43,8 +38,7 @@
   }
   
   section.cover a{
-    border-radius: 2rem;
-    
+    border-radius: 0.5rem;
     color:#fff;
     display: inline-block;
     font-size: 1.05rem;
@@ -53,13 +47,10 @@
     padding: 0.75em 2rem;
     text-decoration: none;
     transition: all .15s ease;
-    width:250px;
+    width:180px;
     margin: 0.25em;
     background: rgb(0,93,157); /* Old browsers */
-    background: -moz-linear-gradient(45deg,  rgba(0,93,157,1) 0%, rgba(152,209,167,1) 40%, rgba(0,152,255) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg,  rgba(0,93,157,1) 0%,rgba(152,209,167,1) 40%, rgba(0,152,255) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg,  rgba(0,93,157,1) 0%,rgba(152,209,167,1) 40%, rgba(0,152,255) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005d9d', endColorstr='#98d1a7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
 
 background-size: 300% 100%;
 }
@@ -69,22 +60,27 @@ moz-transition: all .4s ease-in-out;
 -o-transition: all .4s ease-in-out;
 -webkit-transition: all .4s ease-in-out;
 transition: all .4s ease-in-out;
+background: #044d7f;
+}
+section.cover a.github{
+border:1px solid #336699 !important;
+background:unset;
+color:#336699;
+transition: all .4s ease-in-out;
+
 
 }
-.btnList{
-display:flex;
-flex-wrap: wrap;
-justify-content: center;
+section.cover a.github:hover{
+  background:#e7fff8;
 }
-.btnList span{
-width: 100%;
+
+.subtitle{
+  margin-top:2rem;
+ 
 }
+
 .cover.show{
-background-repeat: no-repeat !important;
-background-size:36% !important;
-background-image: url(cover.png) !important;
-background-position: left bottom !important;
-
+background:#fff !important;
 }
 @media screen and (max-width: 1440px){
 .cover.show{
@@ -121,15 +117,22 @@ z-index: -1;
 
 }
 section.cover h1{
-color:#336699;
-font-size: 1.8em;
+color:#165fa7;
+font-size: 3rem;
 font-weight: 700;
 margin:0.75em 0 0 0;
 
 }
+section.cover h1 .admin{
+margin-top:-0.5rem;
+display: block;
+font-weight: 500;
+font-size: 2.3rem;
+letter-spacing: -0.1rem;
+}
 section.cover p {
-color:#336699;
-font-size: 1em;
+/* color:#165fa7; */
+font-size: 1.2em;
 margin-top: 0em;
 margin-bottom:1.75em;
 }

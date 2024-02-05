@@ -19,7 +19,7 @@
 
 - 發展
 
-  - [路由設定](developmemt/routing.md)
+  - [路由設定](development/routing.md)
 
 - 支援
 

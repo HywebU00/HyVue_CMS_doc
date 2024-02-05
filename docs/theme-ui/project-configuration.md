@@ -146,3 +146,22 @@ sass / setting.scss <br/>
 ```html
 <span class="material-icons-round"> logout </span>
 ```
+
+## 響應式斷點
+
+### 使用
+
+此模板 根據 [Vuetify](https://vuetifyjs.com/zh-Hans/components/grids/#section-4f7f7528) 的配置設定。使用 flexbox 建構的 12 格網格系統。網格用於在應用程式的定的佈局。
+<br/>包含 5 種斷點來針對特定的螢幕尺寸或方向：xs、sm、md、lg 和 xl。可以透夠需求來調整斷點尺寸。<br/>
+
+> 各元件也可透過 sass 的設定 來調整各斷點的樣式，相關變數連結為：
+> sass/common/ mixins/ \_mediaquery.scss
+
+| 裝置     | 名稱 | 類型                   | 範圍              |
+| -------- | ---- | ---------------------- | ----------------- |
+| 超小尺寸 | xs   | Small to large phone   | < 600px           |
+| 小尺寸   | sm   | Small to medium tablet | 600px > < 960px   |
+| 中尺寸   | md   | Large tablet to laptop | 960px > < 1280px  |
+| 大尺寸   | lg   | Laptop to desktop      | 1280px > < 1920px |
+| 超大尺寸 | xl   | 1080p to 1440p desktop | 1920px > < 2560px |
+| 超大尺寸 | xxl  | 4k and ultra-wide      | > 2560px          |

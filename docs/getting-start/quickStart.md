@@ -17,7 +17,7 @@
 使用 `npm` 安裝:
 
 ```text
-cd 2023_vue_CMS_template
+cd HyVue_CMS
 npm install
 ```
 

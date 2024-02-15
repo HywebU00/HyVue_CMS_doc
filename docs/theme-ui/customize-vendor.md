@@ -22,31 +22,35 @@ npm install gsap
 
 <hr style="margin-bottom:8rem;"/>
 
-## 圖表 / ECharts 運用
+## 圖表 / apexcharts 運用
 
 ?> 模板中圖表設定可參考 charts 或是其他相關圖表套件
 
-相關圖表設定 請詳閱 [echarts.js](https://echarts.apache.org/zh/index.html) 套件 及[Vue-Echarts](https://vue-echarts.dev/) 套件
+相關圖表設定 請詳閱 [apexcharts](https://apexcharts.com/vue-chart-demos/) 套件
 
 <img  src="doc_img/img_chart.png"></img>
 
-引入套件
+安裝套件
+
+可參考相關[文件連結](https://apexcharts.com/docs/vue-charts/)
 
 ```bash
-npm install echarts
+npm install --save apexcharts
+npm install --save vue3-apexcharts
 ```
 
-或是 引入套件
+在專案中 引入套件
 
-```bash
-npm i echarts vue-echarts
+```javascript
+//main.js
+import VueApexCharts from 'vue3-apexcharts';
 ```
 
 引入元件
 
 ```vue
 <template>
-  <v-chart class="chart" :option="option" autoresize />
+  <apexchart type="line" :options="options" :series="series"></apexchart>
 </template>
 ```
 
